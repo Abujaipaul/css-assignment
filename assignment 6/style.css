@@ -602,6 +602,81 @@ select{
  .posterlinks{
     margin: 10px auto;
  }
+ /* responsive design */
+ @media only screen and (max-width:1100px){
+    .phase1{
+        background: none;
+    }
+    nav{
+        flex-wrap: wrap;
+    }
+    .navlinked{
+        margin-top: 40px;
+        display: none;
+    }
+    .bglink img{
+        width: 100%;
+    }
+    .bglink{
+        background-size: 180px;
+    }
+    .wrapper{
+        flex-direction: column;
+        width: 100%;
+    }
+    .mainwrap2{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .mainwrap1{
+        margin-left: 30px;
+    }
+    .phase2{
+        flex-wrap: wrap;
+        padding-left: 30px;
+    }
+    .posterbox{
+        flex-direction: column;
+        gap: 10px 0px;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    
+    .box1, .box3{
+        border: 1px solid #0065FE;
+        width: 300px;
+        padding-bottom: 310px;
+    }
+    .box3{
+        margin-top: 0px;
+    }
+    .phase7_icon{
+        text-align: center;
+    }
+    .phase7_box{
+        flex-direction: column;
+        gap: 30px 0px;
+    }
+    .phase7_body{
+        gap: 30px 0px;
+        margin-bottom: 20px;
+    }
+    .body1{
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    
+
+ }
+
+
+
+
+
+
+
 
  @media only screen and (max-width:450px){
     .phase1{
