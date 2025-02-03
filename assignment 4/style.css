@@ -1,0 +1,289 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#2EC4B6;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1025px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+/* sidebox styles */
+.side_box{
+    width: 450px;
+    height: 275px;
+    margin-top: 100px;
+}
+.side_box img{
+    width: 75px;
+}
+.side_box h1{
+    font-size: 23px;
+    margin-bottom:10px;
+}
+.side_boxtext{
+    margin-top: 10px;
+    padding: 7px;
+    width: 410px;
+}
+#phone_width{
+    display: none;
+}
+/* form_box styles */
+.form_box{
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    background-color: #ffff;
+    padding: 45px;
+    padding-right:30px;
+    padding-bottom: 40px;
+    box-shadow: 1px 1px 6px 1px black;
+}
+.form_box p{
+    font-size: 13px;
+}
+input{
+    padding: 5px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+}
+/* firstname styles */
+#firstname{
+    border: 1px solid #2EC4B6;
+    outline: #2EC4B6;
+    margin-top: 5px;
+}
+
+/* lastname styles */
+.lastname{
+    position: absolute;
+    top: 45px;
+    right: 43px;
+}
+#lastname{
+    margin-top: 5px;
+}
+/* gender styles */
+#gender{
+    margin-top: 5px;
+}
+/* D.O.B styles */
+.dateofbirth{
+    margin-top: 10px;
+    position: absolute;
+    top: 100px;
+    right: 43px;
+}
+#dateofbirth{
+    padding: 7px;
+    padding-left: 7px;
+    background-image: url(./assests/u_a_calendar-alt.png);
+    background-repeat: no-repeat;
+    background-position: 153px 6px;
+    background-size: 18px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+/* weight styles */
+.weight{
+    margin-top: 20px;
+}
+#weight{
+    margin-top: 5px;
+}
+/* height styles */
+.height{
+    position: absolute;
+    top: 185px;
+    right: 44px;
+}
+#height{
+    margin-top: 5px;
+}
+/* activity/select styles */
+select{
+    padding: 7px 80px 7px 7px;
+}
+#long_select{
+    padding: 7px 280px 7px 7px;
+}
+.activity{
+    margin-bottom: 16px;
+}
+[for="activity"]{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+/* password styles */
+#password{
+    padding: 7px 205px 7px 7px;
+    background: url(./assests/eyes_view.png) no-repeat;
+    background-size: 13px;
+    background-position: 355px 10px;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+/* register/submit styles */
+#register{
+    padding: 7px 165px;
+    background-color: #2EC4B6;
+    color: white;
+    border: none;
+}
+
+/* footer link styles */
+p a{
+    color:  #2EC4B6;
+    font-size: 11px;
+    text-align: center;
+}
+
+/* responsive  */
+@media only screen and (max-width:830px){
+    .container{
+        display: flex;
+        flex-flow: column;
+        padding: 20px;
+        padding-bottom: 100px;
+    }
+    .form_box{
+        width: 455px;
+    }
+}
+/*mobile responsive */
+@media only screen and (max-width:430px){
+    .container{
+        display: flex;
+        flex-flow: column;
+        padding: 20px;
+        padding-bottom: 100px;
+    }
+
+    /* sidebox styles */
+    .side_box{
+        margin-top: 10px;
+        padding-right: 0px;
+        height: 200px;
+        width: 390px;
+    }
+    #desktop_width{
+        display: none;
+    }
+    #phone_width{
+        display: block;
+    }
+    /* form_box styles */
+.form_box{
+    display: inline-block;
+    padding-right:15px;
+    width: 390px;
+}
+    /* firstname styles */
+    .firstname{
+       width: 340px;
+    }
+#firstname{
+    /* border: 2px solid #2EC4B6 ;
+    outline: #2EC4B6;
+    margin-top: 5px; */
+    padding-right: 122px;
+}
+
+/* lastname styles */
+.lastname{
+    position: absolute;
+    top: 113px;
+    left: 44px;
+    width: 340px;
+}
+#lastname{
+    padding-right: 120px;
+}
+/* .gender styles */
+.gender{
+    position: relative;
+    top: 64px;
+    width: 340px;
+}
+#gender{
+    padding-right: 195px;
+}
+/* date of birth styles */
+.dateofbirth{
+    position: absolute;
+    top: 235px;
+    left: 45px;
+     max-width: 340px;
+}
+#dateofbirth{
+    padding-right: 122px;
+    background-position: 270px 6px;
+}
+/* weight styles */
+.weight{
+     position: relative;
+     top: 128px;
+     max-width: 340px;
+}
+#weight{
+    padding-right: 122px;
+}
+/* height styles */
+.height{
+    position: absolute;
+    top:380px;
+    left: 45px;
+    max-width: 340px;
+}
+#height{
+    padding-right: 122px;
+}
+/* activity/select styles */
+.activity{
+    position: relative;
+    top: 68px;
+    margin-top: 120px;
+    max-width: 340px;
+}
+#long_select{
+    padding: 7px 200px 7px 7px;
+}
+
+/* password styles */
+.password{
+   margin-top: 75px;
+   width: 340px;
+}
+#password{
+    padding-right: 126px;
+}
+
+/* register/submit styles */
+#register{
+    padding: 7px 125px;
+    background-color: #2EC4B6;
+    color: white;
+    border: none;
+}
+/* footer link styles */
+.form_box p {
+    margin-left: 10px;
+    width: 310px;
+    text-align: center;
+    position: absolute;
+    bottom: -60px;
+    left: 23px;
+    font-size: 16px;
+}
+.form_box p a{
+    font-size: 14px;
+    color: #fff;
+}
+}
+
