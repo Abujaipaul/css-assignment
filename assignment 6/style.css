@@ -611,8 +611,9 @@ select{
         flex-wrap: wrap;
     }
     .navlinked{
+        width: 250px;
+        margin: 0px auto;
         margin-top: 40px;
-        display: none;
     }
     .bglink img{
         width: 100%;
